@@ -1,0 +1,28 @@
+EMPLOYEE-MANAGEMENT-SYSTEM BACKEND (NODE (EXPRESS)+MONGODB)
+--------------------------------------------------------------
+
+1.CREATE A FOLDER FOR backend.
+2.CREATE A PACKAGE.JSON -npm init -y
+3. create a database in MONGODB and create a collection named as employee.
+4.install express for creating an application in backend.
+        npm i express
+5.cors :- The word CORS stands for “Cross-Origin Resource Sharing”. Cross-Origin Resource Sharing is an HTTP-header based mechanism implemented by the browser which allows a server or an API(Application Programming Interface) to indicate any origins (different in terms of protocol, hostname, or port) other than its origin from which the unknown origin gets permission to access and load resources.
+            npm i cors
+
+6.create a  index.js file
+
+            Node + Monodb Connection
+7. create a services folder,inside it create a db.js file
+8. mongoose(library)
+    its used to connect node and MONGODB
+    npm i mongoose
+
+9.create a model and schema for the collection
+
+10. Create a file for implementing the logics - (logics.js) - inside the services folder
+
+11.create routes
+         inside the index.js file, define the routes
+         case: 1
+         ---------
+         getAllEmployees -localhost://8000/get-all-getAllEmployees
